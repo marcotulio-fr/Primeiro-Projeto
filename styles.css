@@ -1,0 +1,158 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image-logo {
+    width: 468px;
+    height: 400px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.link-menu {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+header {
+    margin: 44px 0 50px 76px;
+}
+
+.button-menu {
+    border-radius: 20.5px;
+    background: #665AE1;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #515151;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.paragraf-section {
+    color: #848484;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 415px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.button-section {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-section:hover {
+    opacity: 0.8;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 10px auto 20px auto;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        margin: 10px auto 20px auto;
+    }
+
+    .paragraf-section {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .button-section {
+        font-size: 25px;
+        padding: 10px;
+        display: block;
+        width: 40vw;
+        height: auto;
+        justify-content: center;
+        border-radius: 30px;
+        margin: 30px auto;
+        box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.28);
+        cursor: pointer;
+    }
+
+    .button-section:hover {
+        opacity: 0.7;
+    }
+
+    .button-section:active {
+        opacity: 0.3;
+    }
+
+
+
+    .image-logo {
+        margin: 80px auto 10px auto;
+        width: 75vw;
+        height: auto;
+        display: block;
+
+    }
+}
