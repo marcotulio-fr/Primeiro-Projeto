@@ -6,8 +6,8 @@
 }
 
 .image-logo {
-    width: 468px;
-    height: 400px;
+    width: 20vw;
+    height: auto;
     margin-left: 125px;
     display: inline-block;
 }
