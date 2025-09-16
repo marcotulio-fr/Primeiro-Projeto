@@ -3,7 +3,10 @@
 <p>Esse foi meu primeiro projeto de aprendizagem feito</p>
 <h2>Tecnologias usadas</h2>
 <br>
-<ol>
-  HTML
+<ul>
+HTML
+<br>
 CSS
-</ol>
+</ul>
+<img src="./img-readme-wecare.PNG">
+<img src="./img-readme-wecare-mobile.PNG">
