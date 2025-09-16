@@ -9,4 +9,7 @@ HTML
 CSS
 </ul>
 <img src="./img-readme-wecare.PNG">
+<p>Imagem no computador
+<br>
 <img src="./img-readme-wecare-mobile.PNG">
+<p>imagem no celular
